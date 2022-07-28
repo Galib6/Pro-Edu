@@ -31,3 +31,15 @@ body {
 .section3 {
     background-color: #F4FAFD;
 }
+
+.footer1 {
+    background-color: #161616;
+    ;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 0px 10px;
+}
