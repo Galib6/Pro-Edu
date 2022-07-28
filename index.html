@@ -133,7 +133,7 @@
 
         <!-- section 2 end  -->
         <div class="container my-5">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-col-lg-4 g-4">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-col-lg-2 g-4">
                 <div class="col-lg-6">
                     <div class="card border-0 shadow" style="max-width: 700px;">
                         <div class="row g-3 align-items-center">
@@ -249,8 +249,11 @@
                     </div>
                 </div>
             </div>
-            <div class=" text-center my-5">
+            <div class=" text-center my-5 d-none d-md-none d-lg-block">
                 <button class="btn btn-primary">See More Courses</button>
+            </div>
+            <div class=" text-center my-5 d-block d-md-block d-lg-none">
+                <button class="btn btn-primary">View All</button>
             </div>
         </div>
 
@@ -499,11 +502,11 @@
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            data-bs-target="#collapseOne" aria-expanded="True" aria-controls="collapseOne">
                             What are the difference between Flexbox and Grid ?
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is
